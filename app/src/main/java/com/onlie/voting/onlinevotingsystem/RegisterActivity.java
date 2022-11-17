@@ -1,5 +1,4 @@
-
-\fvgfkopackage com.onlie.voting.onlinevotingsystem;
+package com.onlie.voting.onlinevotingsystem;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,9 +41,8 @@ public class RegisterActivity extends AppCompatActivity {
         Phone=(EditText)findViewById(R.id.phoneentry);
         Register=(Button)findViewById(R.id.registerbutton);
         mref= FirebaseDatabase.getInstance().getReference();
-        LoadingBar=new ProgressDialog(this);uj
+        LoadingBar=new ProgressDialog(this);
 
-"[,;hu;"
 
 
         Register.setOnClickListener(new View.OnClickListener() {
